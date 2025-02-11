@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>康文昌的在线HTML 教学小工具</title>
+    <style>  
+      body {
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div style="
+    background-color:rgba(139,139,139,0.2);
+    text-align:center;
+    padding:px;
+    font-size: 40px;    
+    ">
+      <p>我的网站</p>
+    </div>
+    <div style="
+    max-width:700px;
+    margin:30px auto;
+    padding:15px;
+    line-height:2.0;
+    ">
+      <p>我的名字叫马烨涛，我出生在上海市，我的生日是1997年11月23日中午10:58。性别男，爱好女。</p>
+      <p>很无聊吧，没关系，这里有个贪吃蛇的小游戏。可以点进去https://mayetao.github.io/restart01/</p>
+      <p>没想到吧，真的很难玩儿，只能说AI真的太懂节目效果了哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</p>
+      <p>哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</p>
+      <p>哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</p>
+      <p>哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</p>
+      <p>哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</p>
+      <p>哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</p>
+      <p>哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</p>
+      <p>哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</p>
+      <p>哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</p>
+    </div>
+  <div style="
+    background-color:rgba(139,139,139,0.2);
+    text-align:center;
+    padding:10px;
+    font-size: 20px;    
+    ">
+      <p>仅供娱乐 莫要当真</p>
+    </div>
+  </body>
+</html>
