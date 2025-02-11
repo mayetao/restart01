@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>许愿墙</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        #wishInput {
+            width: 80%;
+            max-width: 400px;
+            padding: 15px;
+            margin-bottom: 15px;
+            border: 1px solid #ced4da;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: border-color 0.3s;
+        }
+        #wishInput:focus {
+            border-color: #80bdff;
+            outline: 0;
+            box-shadow: 0 0 8px rgba(0, 123, 255, 0.25);
+        }
+        #submitBtn {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+        #submitBtn:hover {
+            background-color: #0056b3;
+        }
+        #wishList {
+            margin-top: 20px;
+            width: 80%;
+            max-width: 400px;
+        }
+        .wish {
+            background-color: #ffffff;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+        }
+        .wish:hover {
+            transform: translateY(-5px);
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>许愿墙</h1>
+        <textarea id="wishInput" placeholder="写下你的愿望..."></textarea><br>
+        <button id="submitBtn">提交愿望</button>
+        <div id="wishList"></div>
+    </div>
+
+    <script>
+        document.getElementById('submitBtn').addEventListener('click', function() {
+            var wishInput = document.getElementById('wishInput');
+            var wishText = wishInput.value.trim();
+            if (wishText !== '') {
+                var wishList = document.getElementById('wishList');
+                var wishItem = document.createElement('div');
+                wishItem.className = 'wish';
+                wishItem.textContent = wishText;
+                wishList.appendChild(wishItem);
+                wishInput.value = ''; // 清空输入框
+            }
+        });
+    </script>
+</body>
+</html>
